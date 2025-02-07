@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: generator-names
-Version: 0.2.0
+Version: 0.3.0
 Summary: A module for generating random names in English and Russian.
 Home-page: https://github.com/yourusername/generator-names
 Author: Misha
