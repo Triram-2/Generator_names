@@ -2,8 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='generator-names',
-    version='0.1.0',
+    version='0.2.0',
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        "generator_names": ["data_names/**/*.txt"],
+    },
     install_requires=[],
     description='A module for generating random names in English and Russian.',
     author='Misha',
